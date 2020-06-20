@@ -1,0 +1,10 @@
+.cover__text{
+    display: block;
+    position: absolute;  
+    top:33.11%;
+    bottom:0;
+    left: 0;
+    right: 0;
+    margin: auto; 
+    z-index:9;
+}
