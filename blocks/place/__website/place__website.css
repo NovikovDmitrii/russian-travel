@@ -1,5 +1,7 @@
 .place__website{
-    position: relative;
+    position: flex;
+    flex-direction: column;
+    align-self: end;
     max-width: 484px;
     width: auto;
     max-height: 152px;

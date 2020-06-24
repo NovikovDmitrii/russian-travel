@@ -11,6 +11,14 @@
     padding-bottom: 24px;
 }
 
+@media screen and (max-width: 1024px) {
+    .footer{
+        margin:0px 0px 0px 24px;
+        padding-top:88px;
+        padding-bottom: 24px;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .footer{
         flex-direction: column;

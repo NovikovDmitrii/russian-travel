@@ -1,6 +1,8 @@
-.place__image{
-    width:auto;
+.place__image {
+    display: block;
     margin: 0px;
     padding: 0px;
+    background-color: #eee;
+    width: 100%;
     max-width: 460px;
 }

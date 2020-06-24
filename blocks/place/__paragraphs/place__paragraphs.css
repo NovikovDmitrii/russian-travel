@@ -1,6 +1,5 @@
 .place__paragraphs{
-    max-width: 484px;
-    font-family: Inter;
+    font-family: 'Inter', ‘Arial’, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -8,12 +7,20 @@
     color: #FFFFFF;
     margin: auto;
     vertical-align: top;
-    margin-top: -18px;
-    margin-bottom: -18px;   
+   margin: 0px 0px 24px 0px;  
+   
 }
 
-@media screen and (max-width: 510px) {
+@media screen and (max-width: 768px) {
     .place__paragraphs{
-         margin-left: 16px;  
+        margin-left: 24px;    
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .place__paragraphs{
+        margin-left: 16px;
+        font-size: 16px;
+        line-height: 26px;
     }
 }
