@@ -1,13 +1,17 @@
 @import url(./__list/intro__list.css);
-@import url(__list/_boldweight/intro__list_boldweight.css);
 @import url(./__text/intro__text.css);
 @import url(./__title/intro__title.css);
+@import url(./__number/intro__number.css);
 
 .intro{
     max-width: 984px;
+    font-weight: normal;
+    font-family: 'Inter', ‘Arial’, sans-serif;
+    font-style: normal;
     margin: 0 auto 0 auto;
     padding-top: 92px;
     padding-bottom: 92px;
+    color: #FFFFFF;
 }
 
 @media screen and (max-width: 1024px) {

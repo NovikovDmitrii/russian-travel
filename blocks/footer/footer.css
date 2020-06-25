@@ -6,14 +6,19 @@
     display: flex;
     max-width: 1184px;
     justify-content: space-between;
-    margin:0px 48px 0px 48px;
+    margin:0px auto 0px auto;
     padding-top:92px;
     padding-bottom: 24px;
 }
 
+@media screen and (max-width: 1280px) {
+    .footer {
+        margin: 0 48px 0 48px;}
+    }
+
 @media screen and (max-width: 1024px) {
     .footer{
-        margin:0px 0px 0px 24px;
+        margin:0px 24px 0px 24px;
         padding-top:88px;
         padding-bottom: 24px;
     }
@@ -22,9 +27,8 @@
 @media screen and (max-width: 768px) {
     .footer{
         flex-direction: column;
-        margin:0px 0px 0px 16px;
+        margin:0px 16px 0px 16px;
         padding-top:64px;
-        padding-bottom: 24px;
     }
 }
 
