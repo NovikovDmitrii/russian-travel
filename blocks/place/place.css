@@ -17,20 +17,23 @@
 
 @media screen and (max-width: 1024px) {
     .place{
-        margin: 0px 24px 0px 24px;
+        margin: 0px 48px 0px 48px;
         grid-row-gap: 46px;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .place{
-        grid-template-columns: repeat(1, minmax(220px, 484px));
         grid-row-gap: 32px;
+        margin: 0px 24px 0px 24px;
     }
 }
 
-@media screen and (max-width: 768px) {
+
+@media screen and (max-width: 500px) {
     .place{
-        margin: 0;
+        grid-template-columns: repeat(1, minmax(220px, 484px));
+        grid-row-gap: 32px;
+        margin: 0px auto 0px auto;
     }
 }
